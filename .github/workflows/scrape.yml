@@ -1,9 +1,12 @@
 name: Scrape F1 Championship Standings
 
 on:
-  # Run daily at 3am Brisbane/AEDT time (UTC+10 = 17:00 UTC)
+  # Run twice daily (Brisbane/AEST = UTC+10):
+  #   03:00 AEST = 17:00 UTC  — catches overnight European/Americas races
+  #   15:00 AEST = 05:00 UTC  — catches early-morning Brisbane races (e.g. Asian/Aus GPs)
   schedule:
     - cron: '0 17 * * *'
+    - cron: '0 5 * * *'
 
   # Allow manual trigger from the GitHub Actions tab
   workflow_dispatch:
