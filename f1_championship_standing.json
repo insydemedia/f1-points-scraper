@@ -1,0 +1,332 @@
+[
+  {
+    "place": 1,
+    "number": 10,
+    "team": "Alpine",
+    "name": "Pierre Gasly",
+    "car": "Alpine A526",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 2,
+    "number": 43,
+    "team": "Alpine",
+    "name": "Franco Colapinto",
+    "car": "Alpine A526",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 3,
+    "number": 14,
+    "team": "Aston Martin",
+    "name": "Fernando Alonso",
+    "car": "Aston Martin AMR26",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 4,
+    "number": 18,
+    "team": "Aston Martin",
+    "name": "Lance Stroll",
+    "car": "Aston Martin AMR26",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 5,
+    "number": 27,
+    "team": "Audi",
+    "name": "Nico Hulkenberg",
+    "car": "Audi R26",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 6,
+    "number": 5,
+    "team": "Audi",
+    "name": "Gabriel Bortoleto",
+    "car": "Audi R26",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 7,
+    "number": 11,
+    "team": "Cadillac",
+    "name": "Sergio Perez",
+    "car": "Cadillac",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 8,
+    "number": 77,
+    "team": "Cadillac",
+    "name": "Valtteri Bottas",
+    "car": "Cadillac",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 9,
+    "number": 16,
+    "team": "Ferrari",
+    "name": "Charles Leclerc",
+    "car": "Ferrari SF-26",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 10,
+    "number": 44,
+    "team": "Ferrari",
+    "name": "Lewis Hamilton",
+    "car": "Ferrari SF-26",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 11,
+    "number": 31,
+    "team": "Haas F1 Team",
+    "name": "Esteban Ocon",
+    "car": "Haas VF-26",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 12,
+    "number": 87,
+    "team": "Haas F1 Team",
+    "name": "Oliver Bearman",
+    "car": "Haas VF-26",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 13,
+    "number": 4,
+    "team": "McLaren",
+    "name": "Lando Norris",
+    "car": "McLaren MCL40",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 14,
+    "number": 81,
+    "team": "McLaren",
+    "name": "Oscar Piastri",
+    "car": "McLaren MCL40",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 15,
+    "number": 63,
+    "team": "Mercedes",
+    "name": "George Russell",
+    "car": "Mercedes W17",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 16,
+    "number": 12,
+    "team": "Mercedes",
+    "name": "Kimi Antonelli",
+    "car": "Mercedes W17",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 17,
+    "number": 30,
+    "team": "Racing Bulls",
+    "name": "Liam Lawson",
+    "car": "Racing Bulls VCARB 03",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 18,
+    "number": 6,
+    "team": "Racing Bulls",
+    "name": "Arvid Lindblad",
+    "car": "Racing Bulls VCARB 03",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 19,
+    "number": 1,
+    "team": "Red Bull Racing",
+    "name": "Max Verstappen",
+    "car": "Red Bull RB22",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 20,
+    "number": 22,
+    "team": "Red Bull Racing",
+    "name": "Isack Hadjar",
+    "car": "Red Bull RB22",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 21,
+    "number": 55,
+    "team": "Williams",
+    "name": "Carlos Sainz",
+    "car": "Williams FW48",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 22,
+    "number": 23,
+    "team": "Williams",
+    "name": "Alexander Albon",
+    "car": "Williams FW48",
+    "poles": 0,
+    "wins": 0,
+    "points": 0,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  }
+]

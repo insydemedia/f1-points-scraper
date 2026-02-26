@@ -1,0 +1,42 @@
+name: Scrape F1 Championship Standings
+
+on:
+  # Run daily at 3am Brisbane/AEDT time (UTC+10 = 17:00 UTC)
+  schedule:
+    - cron: '0 17 * * *'
+
+  # Allow manual trigger from the GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # Required to commit the updated JSON back to the repo
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit updated standings file
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add f1_championship_standing.json
+          # Only commit if the file actually changed
+          git diff --staged --quiet || git commit -m "Update F1 standings [$(date '+%Y-%m-%d')]"
+          git push
