@@ -16,6 +16,7 @@ fixed indices, so mid-season structural changes are handled gracefully.
 import sys
 import json
 import logging
+from collections import Counter
 from typing import Optional
 import requests
 from datetime import datetime
@@ -115,14 +116,70 @@ def detect_columns(header_row) -> dict:
             cols["team"] = i
         elif "pts" in text or "point" in text:
             cols["pts"] = i
-        elif "win" in text:
-            cols["wins"] = i
-        elif "pole" in text:
-            cols["poles"] = i
     return cols
 
 
 # ─── Scraping ─────────────────────────────────────────────────────────────────
+
+def fetch_wins() -> Counter:
+    """Fetch race winners and return a Counter of wins per driver."""
+    url = f"https://www.formula1.com/en/results/{YEAR}/races"
+    wins = Counter()
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "lxml")
+        table = soup.find("table")
+        if table:
+            headers = [th.get_text(strip=True).lower() for th in table.find('thead').find_all('th')]
+            winner_idx = headers.index('winner') if 'winner' in headers else -1
+            if winner_idx != -1:
+                # Get wins row by row
+                for row in table.find("tbody").find_all("tr"):
+                    cells = row.find_all("td")
+                    if len(cells) > winner_idx:
+                        # e.g "Max Verstappen VER"
+                        full_text = cells[winner_idx].get_text(separator=" ", strip=True)
+                        parts = full_text.split()
+                        # Remove the 3-letter abbreviation suffix if present
+                        parts = [p for p in parts if not (p.isupper() and len(p) == 3)]
+                        winner_name = " ".join(parts).strip()
+                        if winner_name:
+                            wins[winner_name] += 1
+        return wins
+    except Exception as e:
+        logging.error(f"Error fetching wins from {url}: {e}")
+        return Counter()
+
+
+def fetch_poles() -> Counter:
+    """Fetch pole positions and return a Counter of poles per driver."""
+    url = f"https://www.formula1.com/en/results/{YEAR}/awards/pole-positions"
+    poles = Counter()
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=20)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "lxml")
+        table = soup.find("table")
+        if table:
+            headers = [th.get_text(strip=True).lower() for th in table.find('thead').find_all('th')]
+            driver_idx = headers.index('winner') if 'winner' in headers else -1
+            if driver_idx != -1:
+                for row in table.find("tbody").find_all("tr"):
+                    cells = row.find_all("td")
+                    if len(cells) > driver_idx:
+                        # e.g "Max Verstappen VER"
+                        full_text = cells[driver_idx].get_text(separator=" ", strip=True)
+                        parts = full_text.split()
+                        parts = [p for p in parts if not (p.isupper() and len(p) == 3)]
+                        driver_name = " ".join(parts).strip()
+                        if driver_name:
+                            poles[driver_name] += 1
+        return poles
+    except Exception as e:
+        logging.error(f"Error fetching poles from {url}: {e}")
+        return Counter()
+
 
 def fetch_standings() -> Optional[list]:
     """
@@ -163,12 +220,15 @@ def fetch_standings() -> Optional[list]:
     cols = detect_columns(header_row)
     logging.info(f"Detected columns: {cols}")
 
-    # Minimum required columns
+    # Minimum required columns for standings
     required = {"pos", "driver", "pts"}
     missing = required - cols.keys()
     if missing:
-        logging.error(f"Required columns not found: {missing}")
+        logging.error(f"Required columns not found in standings table: {missing}")
         return None
+
+    wins_counts = fetch_wins()
+    poles_counts = fetch_poles()
 
     standings = []
     for row in tbody.find_all("tr"):
@@ -213,8 +273,10 @@ def fetch_standings() -> Optional[list]:
 
         # ── Points, wins, poles ───────────────────────────────────────────────
         points = clean_int(cell_text("pts"))
-        wins   = clean_int(cell_text("wins"))
-        poles  = clean_int(cell_text("poles"))
+        
+        # Matches by exact full name string built above
+        wins = wins_counts.get(full_name, 0)
+        poles = poles_counts.get(full_name, 0)
 
         standings.append({
             "place":  place,
