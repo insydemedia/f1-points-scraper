@@ -195,19 +195,11 @@ def fetch_standings() -> Optional[list]:
         driver_cell_idx = cols.get("driver", 0)
         if driver_cell_idx < len(cells):
             driver_cell = cells[driver_cell_idx]
-            # Formula 1 uses two separate elements for first and last name.
-            # Try to find them; fall back to splitting the full text.
-            name_parts = [el.get_text(strip=True) for el in driver_cell.find_all(["span", "p", "div"]) if el.get_text(strip=True)]
-            # Filter out 3-letter abbreviations (all caps, len==3)
-            name_parts = [p for p in name_parts if not (p.isupper() and len(p) == 3)]
-            if len(name_parts) >= 2:
-                first_name = name_parts[0]
-                last_name  = name_parts[1]
-            else:
-                full = driver_cell.get_text(separator=" ", strip=True)
-                parts = full.split()
-                first_name = parts[0] if parts else ""
-                last_name  = " ".join(parts[1:]) if len(parts) > 1 else ""
+            all_text = driver_cell.get_text(separator=" ", strip=True)
+            parts = all_text.split()
+            parts = [p for p in parts if not (p.isupper() and len(p) == 3)]
+            first_name = parts[0] if parts else ""
+            last_name  = " ".join(parts[1:]) if len(parts) > 1 else ""
         else:
             first_name, last_name = "", ""
 
