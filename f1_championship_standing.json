@@ -5,8 +5,8 @@
     "team": "Mercedes",
     "name": "George Russell",
     "car": "Mercedes W17",
-    "poles": 0,
-    "wins": 0,
+    "poles": 1,
+    "wins": 1,
     "points": 25,
     "odds": {
       "bet365": "0",
