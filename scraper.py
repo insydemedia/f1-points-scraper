@@ -62,7 +62,7 @@ DRIVER_ROSTER = [
     {"first": "Esteban",    "last": "Ocon",       "number": 31, "team": "Haas F1 Team",    "car": "Haas VF-26"},
     {"first": "Oliver",     "last": "Bearman",    "number": 87, "team": "Haas F1 Team",    "car": "Haas VF-26"},
     # McLaren
-    {"first": "Lando",      "last": "Norris",     "number": 4,  "team": "McLaren",         "car": "McLaren MCL40"},
+    {"first": "Lando",      "last": "Norris",     "number": 1,  "team": "McLaren",         "car": "McLaren MCL40"},
     {"first": "Oscar",      "last": "Piastri",    "number": 81, "team": "McLaren",         "car": "McLaren MCL40"},
     # Mercedes
     {"first": "George",     "last": "Russell",    "number": 63, "team": "Mercedes",        "car": "Mercedes W17"},
@@ -71,7 +71,7 @@ DRIVER_ROSTER = [
     {"first": "Liam",       "last": "Lawson",     "number": 30, "team": "Racing Bulls",    "car": "Racing Bulls VCARB 03"},
     {"first": "Arvid",      "last": "Lindblad",   "number": 6,  "team": "Racing Bulls",    "car": "Racing Bulls VCARB 03"},
     # Red Bull Racing
-    {"first": "Max",        "last": "Verstappen", "number": 1,  "team": "Red Bull Racing", "car": "Red Bull RB22"},
+    {"first": "Max",        "last": "Verstappen", "number": 3,  "team": "Red Bull Racing", "car": "Red Bull RB22"},
     {"first": "Isack",      "last": "Hadjar",     "number": 22, "team": "Red Bull Racing", "car": "Red Bull RB22"},
     # Williams
     {"first": "Carlos",     "last": "Sainz",      "number": 55, "team": "Williams",        "car": "Williams FW48"},
