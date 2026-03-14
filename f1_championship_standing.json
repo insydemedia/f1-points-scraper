@@ -7,7 +7,7 @@
     "car": "Mercedes W17",
     "poles": 1,
     "wins": 1,
-    "points": 25,
+    "points": 33,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -22,7 +22,7 @@
     "car": "Mercedes W17",
     "poles": 0,
     "wins": 0,
-    "points": 18,
+    "points": 22,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -37,7 +37,7 @@
     "car": "Ferrari SF-26",
     "poles": 0,
     "wins": 0,
-    "points": 15,
+    "points": 22,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -52,7 +52,7 @@
     "car": "Ferrari SF-26",
     "poles": 0,
     "wins": 0,
-    "points": 12,
+    "points": 18,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -67,7 +67,7 @@
     "car": "McLaren MCL40",
     "poles": 0,
     "wins": 0,
-    "points": 10,
+    "points": 15,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -97,7 +97,7 @@
     "car": "Haas VF-26",
     "poles": 0,
     "wins": 0,
-    "points": 6,
+    "points": 7,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -121,6 +121,21 @@
   },
   {
     "place": 9,
+    "number": 81,
+    "team": "McLaren",
+    "name": "Oscar Piastri",
+    "car": "McLaren MCL40",
+    "poles": 0,
+    "wins": 0,
+    "points": 3,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 10,
     "number": 5,
     "team": "Audi",
     "name": "Gabriel Bortoleto",
@@ -135,7 +150,22 @@
     }
   },
   {
-    "place": 10,
+    "place": 11,
+    "number": 30,
+    "team": "Racing Bulls",
+    "name": "Liam Lawson",
+    "car": "Racing Bulls VCARB 03",
+    "poles": 0,
+    "wins": 0,
+    "points": 2,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 12,
     "number": 10,
     "team": "Alpine",
     "name": "Pierre Gasly",
@@ -150,7 +180,7 @@
     }
   },
   {
-    "place": 11,
+    "place": 13,
     "number": 31,
     "team": "Haas F1 Team",
     "name": "Esteban Ocon",
@@ -165,7 +195,7 @@
     }
   },
   {
-    "place": 12,
+    "place": 14,
     "number": 23,
     "team": "Williams",
     "name": "Alexander Albon",
@@ -180,22 +210,7 @@
     }
   },
   {
-    "place": 13,
-    "number": 30,
-    "team": "Racing Bulls",
-    "name": "Liam Lawson",
-    "car": "Racing Bulls VCARB 03",
-    "poles": 0,
-    "wins": 0,
-    "points": 0,
-    "odds": {
-      "bet365": "0",
-      "sportsbet": "0",
-      "dabble": "0"
-    }
-  },
-  {
-    "place": 14,
+    "place": 15,
     "number": 43,
     "team": "Alpine",
     "name": "Franco Colapinto",
@@ -210,7 +225,7 @@
     }
   },
   {
-    "place": 15,
+    "place": 16,
     "number": 55,
     "team": "Williams",
     "name": "Carlos Sainz",
@@ -225,7 +240,7 @@
     }
   },
   {
-    "place": 16,
+    "place": 17,
     "number": 11,
     "team": "Cadillac",
     "name": "Sergio Perez",
@@ -240,26 +255,11 @@
     }
   },
   {
-    "place": 17,
+    "place": 18,
     "number": 22,
     "team": "Red Bull Racing",
     "name": "Isack Hadjar",
     "car": "Red Bull RB22",
-    "poles": 0,
-    "wins": 0,
-    "points": 0,
-    "odds": {
-      "bet365": "0",
-      "sportsbet": "0",
-      "dabble": "0"
-    }
-  },
-  {
-    "place": 18,
-    "number": 81,
-    "team": "McLaren",
-    "name": "Oscar Piastri",
-    "car": "McLaren MCL40",
     "poles": 0,
     "wins": 0,
     "points": 0,
