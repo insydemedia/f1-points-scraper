@@ -6,8 +6,8 @@
     "name": "Kimi Antonelli",
     "car": "Mercedes W17",
     "poles": 3,
-    "wins": 2,
-    "points": 75,
+    "wins": 3,
+    "points": 100,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -22,7 +22,7 @@
     "car": "Mercedes W17",
     "poles": 1,
     "wins": 1,
-    "points": 68,
+    "points": 80,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -37,7 +37,7 @@
     "car": "Ferrari SF-26",
     "poles": 0,
     "wins": 0,
-    "points": 55,
+    "points": 63,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -46,13 +46,13 @@
   },
   {
     "place": 4,
-    "number": 44,
-    "team": "Ferrari",
-    "name": "Lewis Hamilton",
-    "car": "Ferrari SF-26",
+    "number": 1,
+    "team": "McLaren",
+    "name": "Lando Norris",
+    "car": "McLaren MCL40",
     "poles": 0,
     "wins": 0,
-    "points": 43,
+    "points": 51,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -61,13 +61,13 @@
   },
   {
     "place": 5,
-    "number": 1,
-    "team": "McLaren",
-    "name": "Lando Norris",
-    "car": "McLaren MCL40",
+    "number": 44,
+    "team": "Ferrari",
+    "name": "Lewis Hamilton",
+    "car": "Ferrari SF-26",
     "poles": 0,
     "wins": 0,
-    "points": 33,
+    "points": 49,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -82,7 +82,7 @@
     "car": "McLaren MCL40",
     "poles": 0,
     "wins": 0,
-    "points": 28,
+    "points": 43,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -91,6 +91,21 @@
   },
   {
     "place": 7,
+    "number": 3,
+    "team": "Red Bull Racing",
+    "name": "Max Verstappen",
+    "car": "Red Bull RB22",
+    "poles": 0,
+    "wins": 0,
+    "points": 26,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 8,
     "number": 87,
     "team": "Haas F1 Team",
     "name": "Oliver Bearman",
@@ -105,26 +120,11 @@
     }
   },
   {
-    "place": 8,
+    "place": 9,
     "number": 10,
     "team": "Alpine",
     "name": "Pierre Gasly",
     "car": "Alpine A526",
-    "poles": 0,
-    "wins": 0,
-    "points": 16,
-    "odds": {
-      "bet365": "0",
-      "sportsbet": "0",
-      "dabble": "0"
-    }
-  },
-  {
-    "place": 9,
-    "number": 3,
-    "team": "Red Bull Racing",
-    "name": "Max Verstappen",
-    "car": "Red Bull RB22",
     "poles": 0,
     "wins": 0,
     "points": 16,
@@ -151,6 +151,21 @@
   },
   {
     "place": 11,
+    "number": 43,
+    "team": "Alpine",
+    "name": "Franco Colapinto",
+    "car": "Alpine A526",
+    "poles": 0,
+    "wins": 0,
+    "points": 5,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 12,
     "number": 6,
     "team": "Racing Bulls",
     "name": "Arvid Lindblad",
@@ -165,7 +180,7 @@
     }
   },
   {
-    "place": 12,
+    "place": 13,
     "number": 22,
     "team": "Red Bull Racing",
     "name": "Isack Hadjar",
@@ -180,7 +195,22 @@
     }
   },
   {
-    "place": 13,
+    "place": 14,
+    "number": 55,
+    "team": "Williams",
+    "name": "Carlos Sainz",
+    "car": "Williams FW48",
+    "poles": 0,
+    "wins": 0,
+    "points": 4,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 15,
     "number": 5,
     "team": "Audi",
     "name": "Gabriel Bortoleto",
@@ -195,22 +225,7 @@
     }
   },
   {
-    "place": 14,
-    "number": 55,
-    "team": "Williams",
-    "name": "Carlos Sainz",
-    "car": "Williams FW48",
-    "poles": 0,
-    "wins": 0,
-    "points": 2,
-    "odds": {
-      "bet365": "0",
-      "sportsbet": "0",
-      "dabble": "0"
-    }
-  },
-  {
-    "place": 15,
+    "place": 16,
     "number": 31,
     "team": "Haas F1 Team",
     "name": "Esteban Ocon",
@@ -225,11 +240,11 @@
     }
   },
   {
-    "place": 16,
-    "number": 43,
-    "team": "Alpine",
-    "name": "Franco Colapinto",
-    "car": "Alpine A526",
+    "place": 17,
+    "number": 23,
+    "team": "Williams",
+    "name": "Alexander Albon",
+    "car": "Williams FW48",
     "poles": 0,
     "wins": 0,
     "points": 1,
@@ -240,26 +255,11 @@
     }
   },
   {
-    "place": 17,
+    "place": 18,
     "number": 27,
     "team": "Audi",
     "name": "Nico Hulkenberg",
     "car": "Audi R26",
-    "poles": 0,
-    "wins": 0,
-    "points": 0,
-    "odds": {
-      "bet365": "0",
-      "sportsbet": "0",
-      "dabble": "0"
-    }
-  },
-  {
-    "place": 18,
-    "number": 23,
-    "team": "Williams",
-    "name": "Alexander Albon",
-    "car": "Williams FW48",
     "poles": 0,
     "wins": 0,
     "points": 0,
