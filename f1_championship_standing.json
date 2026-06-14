@@ -142,7 +142,7 @@
     "car": "Racing Bulls VCARB 03",
     "poles": 0,
     "wins": 0,
-    "points": 26,
+    "points": 28,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -151,21 +151,6 @@
   },
   {
     "place": 11,
-    "number": 43,
-    "team": "Alpine",
-    "name": "Franco Colapinto",
-    "car": "Alpine A526",
-    "poles": 0,
-    "wins": 0,
-    "points": 19,
-    "odds": {
-      "bet365": "0",
-      "sportsbet": "0",
-      "dabble": "0"
-    }
-  },
-  {
-    "place": 12,
     "number": 87,
     "team": "Haas F1 Team",
     "name": "Oliver Bearman",
@@ -180,6 +165,21 @@
     }
   },
   {
+    "place": 12,
+    "number": 43,
+    "team": "Alpine",
+    "name": "Franco Colapinto",
+    "car": "Alpine A526",
+    "poles": 0,
+    "wins": 0,
+    "points": 16,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
     "place": 13,
     "number": 6,
     "team": "Racing Bulls",
@@ -187,7 +187,7 @@
     "car": "Racing Bulls VCARB 03",
     "poles": 0,
     "wins": 0,
-    "points": 12,
+    "points": 13,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
