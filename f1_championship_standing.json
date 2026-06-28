@@ -7,7 +7,7 @@
     "car": "Mercedes W17",
     "poles": 4,
     "wins": 5,
-    "points": 156,
+    "points": 171,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -16,13 +16,13 @@
   },
   {
     "place": 2,
-    "number": 44,
-    "team": "Ferrari",
-    "name": "Lewis Hamilton",
-    "car": "Ferrari SF-26",
-    "poles": 0,
-    "wins": 1,
-    "points": 115,
+    "number": 63,
+    "team": "Mercedes",
+    "name": "George Russell",
+    "car": "Mercedes W17",
+    "poles": 4,
+    "wins": 2,
+    "points": 131,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -31,13 +31,13 @@
   },
   {
     "place": 3,
-    "number": 63,
-    "team": "Mercedes",
-    "name": "George Russell",
-    "car": "Mercedes W17",
-    "poles": 4,
+    "number": 44,
+    "team": "Ferrari",
+    "name": "Lewis Hamilton",
+    "car": "Ferrari SF-26",
+    "poles": 0,
     "wins": 1,
-    "points": 106,
+    "points": 125,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -46,13 +46,13 @@
   },
   {
     "place": 4,
-    "number": 16,
-    "team": "Ferrari",
-    "name": "Charles Leclerc",
-    "car": "Ferrari SF-26",
+    "number": 81,
+    "team": "McLaren",
+    "name": "Oscar Piastri",
+    "car": "McLaren MCL40",
     "poles": 0,
     "wins": 0,
-    "points": 75,
+    "points": 80,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -67,7 +67,7 @@
     "car": "McLaren MCL40",
     "poles": 0,
     "wins": 0,
-    "points": 73,
+    "points": 79,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -76,13 +76,13 @@
   },
   {
     "place": 6,
-    "number": 81,
-    "team": "McLaren",
-    "name": "Oscar Piastri",
-    "car": "McLaren MCL40",
+    "number": 16,
+    "team": "Ferrari",
+    "name": "Charles Leclerc",
+    "car": "Ferrari SF-26",
     "poles": 0,
     "wins": 0,
-    "points": 68,
+    "points": 79,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -97,7 +97,7 @@
     "car": "Red Bull RB22",
     "poles": 0,
     "wins": 0,
-    "points": 55,
+    "points": 73,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -106,6 +106,21 @@
   },
   {
     "place": 8,
+    "number": 22,
+    "team": "Red Bull Racing",
+    "name": "Isack Hadjar",
+    "car": "Red Bull RB22",
+    "poles": 0,
+    "wins": 0,
+    "points": 42,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 9,
     "number": 10,
     "team": "Alpine",
     "name": "Pierre Gasly",
@@ -120,21 +135,6 @@
     }
   },
   {
-    "place": 9,
-    "number": 22,
-    "team": "Red Bull Racing",
-    "name": "Isack Hadjar",
-    "car": "Red Bull RB22",
-    "poles": 0,
-    "wins": 0,
-    "points": 34,
-    "odds": {
-      "bet365": "0",
-      "sportsbet": "0",
-      "dabble": "0"
-    }
-  },
-  {
     "place": 10,
     "number": 30,
     "team": "Racing Bulls",
@@ -142,7 +142,7 @@
     "car": "Racing Bulls VCARB 03",
     "poles": 0,
     "wins": 0,
-    "points": 28,
+    "points": 30,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -187,7 +187,7 @@
     "car": "Racing Bulls VCARB 03",
     "poles": 0,
     "wins": 0,
-    "points": 13,
+    "points": 14,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
