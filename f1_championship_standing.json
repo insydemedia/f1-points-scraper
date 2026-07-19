@@ -6,8 +6,8 @@
     "name": "Kimi Antonelli",
     "car": "Mercedes W17",
     "poles": 6,
-    "wins": 5,
-    "points": 179,
+    "wins": 6,
+    "points": 204,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -16,6 +16,21 @@
   },
   {
     "place": 2,
+    "number": 44,
+    "team": "Ferrari",
+    "name": "Lewis Hamilton",
+    "car": "Ferrari SF-26",
+    "poles": 0,
+    "wins": 1,
+    "points": 159,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 3,
     "number": 63,
     "team": "Mercedes",
     "name": "George Russell",
@@ -30,21 +45,6 @@
     }
   },
   {
-    "place": 3,
-    "number": 44,
-    "team": "Ferrari",
-    "name": "Lewis Hamilton",
-    "car": "Ferrari SF-26",
-    "poles": 0,
-    "wins": 1,
-    "points": 147,
-    "odds": {
-      "bet365": "0",
-      "sportsbet": "0",
-      "dabble": "0"
-    }
-  },
-  {
     "place": 4,
     "number": 16,
     "team": "Ferrari",
@@ -52,7 +52,7 @@
     "car": "Ferrari SF-26",
     "poles": 0,
     "wins": 1,
-    "points": 108,
+    "points": 126,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -67,7 +67,7 @@
     "car": "McLaren MCL40",
     "poles": 0,
     "wins": 0,
-    "points": 97,
+    "points": 103,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -82,7 +82,7 @@
     "car": "McLaren MCL40",
     "poles": 0,
     "wins": 0,
-    "points": 82,
+    "points": 92,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -97,7 +97,7 @@
     "car": "Red Bull RB22",
     "poles": 0,
     "wins": 0,
-    "points": 76,
+    "points": 91,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -112,7 +112,7 @@
     "car": "Red Bull RB22",
     "poles": 0,
     "wins": 0,
-    "points": 52,
+    "points": 60,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -157,7 +157,7 @@
     "car": "Racing Bulls VCARB 03",
     "poles": 0,
     "wins": 0,
-    "points": 20,
+    "points": 22,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -166,13 +166,13 @@
   },
   {
     "place": 12,
-    "number": 87,
-    "team": "Haas F1 Team",
-    "name": "Oliver Bearman",
-    "car": "Haas VF-26",
+    "number": 43,
+    "team": "Alpine",
+    "name": "Franco Colapinto",
+    "car": "Alpine A526",
     "poles": 0,
     "wins": 0,
-    "points": 18,
+    "points": 19,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -181,10 +181,10 @@
   },
   {
     "place": 13,
-    "number": 43,
-    "team": "Alpine",
-    "name": "Franco Colapinto",
-    "car": "Alpine A526",
+    "number": 87,
+    "team": "Haas F1 Team",
+    "name": "Oliver Bearman",
+    "car": "Haas VF-26",
     "poles": 0,
     "wins": 0,
     "points": 18,
@@ -202,7 +202,7 @@
     "car": "Audi R26",
     "poles": 0,
     "wins": 0,
-    "points": 6,
+    "points": 10,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
