@@ -7,7 +7,7 @@
     "car": "Mercedes W17",
     "poles": 6,
     "wins": 6,
-    "points": 204,
+    "points": 219,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -22,7 +22,7 @@
     "car": "Ferrari SF-26",
     "poles": 0,
     "wins": 1,
-    "points": 159,
+    "points": 169,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -37,7 +37,7 @@
     "car": "Mercedes W17",
     "poles": 4,
     "wins": 2,
-    "points": 154,
+    "points": 160,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -52,7 +52,7 @@
     "car": "Ferrari SF-26",
     "poles": 0,
     "wins": 1,
-    "points": 126,
+    "points": 138,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -66,8 +66,8 @@
     "name": "Lando Norris",
     "car": "McLaren MCL40",
     "poles": 1,
-    "wins": 0,
-    "points": 103,
+    "wins": 1,
+    "points": 128,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -76,6 +76,21 @@
   },
   {
     "place": 6,
+    "number": 3,
+    "team": "Red Bull Racing",
+    "name": "Max Verstappen",
+    "car": "Red Bull RB22",
+    "poles": 0,
+    "wins": 0,
+    "points": 109,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 7,
     "number": 81,
     "team": "McLaren",
     "name": "Oscar Piastri",
@@ -90,21 +105,6 @@
     }
   },
   {
-    "place": 7,
-    "number": 3,
-    "team": "Red Bull Racing",
-    "name": "Max Verstappen",
-    "car": "Red Bull RB22",
-    "poles": 0,
-    "wins": 0,
-    "points": 91,
-    "odds": {
-      "bet365": "0",
-      "sportsbet": "0",
-      "dabble": "0"
-    }
-  },
-  {
     "place": 8,
     "number": 22,
     "team": "Red Bull Racing",
@@ -112,7 +112,7 @@
     "car": "Red Bull RB22",
     "poles": 0,
     "wins": 0,
-    "points": 60,
+    "points": 68,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -121,6 +121,21 @@
   },
   {
     "place": 9,
+    "number": 30,
+    "team": "Racing Bulls",
+    "name": "Liam Lawson",
+    "car": "Racing Bulls VCARB 03",
+    "poles": 0,
+    "wins": 0,
+    "points": 43,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 10,
     "number": 10,
     "team": "Alpine",
     "name": "Pierre Gasly",
@@ -135,21 +150,6 @@
     }
   },
   {
-    "place": 10,
-    "number": 30,
-    "team": "Racing Bulls",
-    "name": "Liam Lawson",
-    "car": "Racing Bulls VCARB 03",
-    "poles": 0,
-    "wins": 0,
-    "points": 39,
-    "odds": {
-      "bet365": "0",
-      "sportsbet": "0",
-      "dabble": "0"
-    }
-  },
-  {
     "place": 11,
     "number": 6,
     "team": "Racing Bulls",
@@ -157,7 +157,7 @@
     "car": "Racing Bulls VCARB 03",
     "poles": 0,
     "wins": 0,
-    "points": 22,
+    "points": 23,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -256,6 +256,21 @@
   },
   {
     "place": 18,
+    "number": 27,
+    "team": "Audi",
+    "name": "Nico Hulkenberg",
+    "car": "Audi R26",
+    "poles": 0,
+    "wins": 0,
+    "points": 2,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 19,
     "number": 14,
     "team": "Aston Martin",
     "name": "Fernando Alonso",
@@ -270,11 +285,11 @@
     }
   },
   {
-    "place": 19,
-    "number": 27,
-    "team": "Audi",
-    "name": "Nico Hulkenberg",
-    "car": "Audi R26",
+    "place": 20,
+    "number": 18,
+    "team": "Aston Martin",
+    "name": "Lance Stroll",
+    "car": "Aston Martin AMR26",
     "poles": 0,
     "wins": 0,
     "points": 0,
@@ -285,7 +300,7 @@
     }
   },
   {
-    "place": 20,
+    "place": 21,
     "number": 77,
     "team": "Cadillac",
     "name": "Valtteri Bottas",
@@ -300,26 +315,11 @@
     }
   },
   {
-    "place": 21,
+    "place": 22,
     "number": 11,
     "team": "Cadillac",
     "name": "Sergio Perez",
     "car": "Cadillac",
-    "poles": 0,
-    "wins": 0,
-    "points": 0,
-    "odds": {
-      "bet365": "0",
-      "sportsbet": "0",
-      "dabble": "0"
-    }
-  },
-  {
-    "place": 22,
-    "number": 18,
-    "team": "Aston Martin",
-    "name": "Lance Stroll",
-    "car": "Aston Martin AMR26",
     "poles": 0,
     "wins": 0,
     "points": 0,
