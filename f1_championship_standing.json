@@ -7,7 +7,7 @@
     "car": "Mercedes W17",
     "poles": 6,
     "wins": 6,
-    "points": 224,
+    "points": 242,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -16,13 +16,13 @@
   },
   {
     "place": 2,
-    "number": 44,
-    "team": "Ferrari",
-    "name": "Lewis Hamilton",
-    "car": "Ferrari SF-26",
-    "poles": 0,
-    "wins": 1,
-    "points": 171,
+    "number": 63,
+    "team": "Mercedes",
+    "name": "George Russell",
+    "car": "Mercedes W17",
+    "poles": 4,
+    "wins": 2,
+    "points": 183,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -31,13 +31,13 @@
   },
   {
     "place": 3,
-    "number": 63,
-    "team": "Mercedes",
-    "name": "George Russell",
-    "car": "Mercedes W17",
-    "poles": 4,
-    "wins": 2,
-    "points": 168,
+    "number": 44,
+    "team": "Ferrari",
+    "name": "Lewis Hamilton",
+    "car": "Ferrari SF-26",
+    "poles": 0,
+    "wins": 1,
+    "points": 183,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -46,13 +46,13 @@
   },
   {
     "place": 4,
-    "number": 16,
-    "team": "Ferrari",
-    "name": "Charles Leclerc",
-    "car": "Ferrari SF-26",
-    "poles": 0,
-    "wins": 1,
-    "points": 145,
+    "number": 1,
+    "team": "McLaren",
+    "name": "Lando Norris",
+    "car": "McLaren MCL40",
+    "poles": 2,
+    "wins": 2,
+    "points": 159,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -61,13 +61,13 @@
   },
   {
     "place": 5,
-    "number": 1,
-    "team": "McLaren",
-    "name": "Lando Norris",
-    "car": "McLaren MCL40",
-    "poles": 2,
+    "number": 16,
+    "team": "Ferrari",
+    "name": "Charles Leclerc",
+    "car": "Ferrari SF-26",
+    "poles": 0,
     "wins": 1,
-    "points": 134,
+    "points": 155,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -97,7 +97,7 @@
     "car": "McLaren MCL40",
     "poles": 0,
     "wins": 0,
-    "points": 96,
+    "points": 104,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -121,13 +121,13 @@
   },
   {
     "place": 9,
-    "number": 10,
-    "team": "Alpine",
-    "name": "Pierre Gasly",
-    "car": "Alpine A526",
+    "number": 30,
+    "team": "Racing Bulls",
+    "name": "Liam Lawson",
+    "car": "Racing Bulls VCARB 03",
     "poles": 0,
     "wins": 0,
-    "points": 43,
+    "points": 49,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -136,13 +136,13 @@
   },
   {
     "place": 10,
-    "number": 30,
-    "team": "Racing Bulls",
-    "name": "Liam Lawson",
-    "car": "Racing Bulls VCARB 03",
+    "number": 10,
+    "team": "Alpine",
+    "name": "Pierre Gasly",
+    "car": "Alpine A526",
     "poles": 0,
     "wins": 0,
-    "points": 43,
+    "points": 44,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -211,6 +211,21 @@
   },
   {
     "place": 15,
+    "number": 27,
+    "team": "Audi",
+    "name": "Nico Hulkenberg",
+    "car": "Audi R26",
+    "poles": 0,
+    "wins": 0,
+    "points": 6,
+    "odds": {
+      "bet365": "0",
+      "sportsbet": "0",
+      "dabble": "0"
+    }
+  },
+  {
+    "place": 16,
     "number": 55,
     "team": "Williams",
     "name": "Carlos Sainz",
@@ -225,7 +240,7 @@
     }
   },
   {
-    "place": 16,
+    "place": 17,
     "number": 23,
     "team": "Williams",
     "name": "Alexander Albon",
@@ -240,7 +255,7 @@
     }
   },
   {
-    "place": 17,
+    "place": 18,
     "number": 31,
     "team": "Haas F1 Team",
     "name": "Esteban Ocon",
@@ -255,21 +270,6 @@
     }
   },
   {
-    "place": 18,
-    "number": 27,
-    "team": "Audi",
-    "name": "Nico Hulkenberg",
-    "car": "Audi R26",
-    "poles": 0,
-    "wins": 0,
-    "points": 2,
-    "odds": {
-      "bet365": "0",
-      "sportsbet": "0",
-      "dabble": "0"
-    }
-  },
-  {
     "place": 19,
     "number": 14,
     "team": "Aston Martin",
@@ -277,7 +277,7 @@
     "car": "Aston Martin AMR26",
     "poles": 0,
     "wins": 0,
-    "points": 1,
+    "points": 3,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -285,7 +285,7 @@
     }
   },
   {
-    "place": 20,
+    "place": 21,
     "number": 18,
     "team": "Aston Martin",
     "name": "Lance Stroll",
@@ -300,7 +300,7 @@
     }
   },
   {
-    "place": 21,
+    "place": 22,
     "number": 77,
     "team": "Cadillac",
     "name": "Valtteri Bottas",
@@ -315,7 +315,7 @@
     }
   },
   {
-    "place": 22,
+    "place": 23,
     "number": 11,
     "team": "Cadillac",
     "name": "Sergio Perez",
