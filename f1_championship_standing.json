@@ -7,7 +7,7 @@
     "car": "Mercedes W17",
     "poles": 6,
     "wins": 8,
-    "points": 292,
+    "points": 302,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -21,8 +21,8 @@
     "name": "George Russell",
     "car": "Mercedes W17",
     "poles": 5,
-    "wins": 2,
-    "points": 211,
+    "wins": 3,
+    "points": 236,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -37,7 +37,7 @@
     "car": "Ferrari SF-26",
     "poles": 0,
     "wins": 1,
-    "points": 191,
+    "points": 199,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -67,7 +67,7 @@
     "car": "Ferrari SF-26",
     "poles": 0,
     "wins": 1,
-    "points": 167,
+    "points": 179,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -82,7 +82,7 @@
     "car": "Red Bull RB22",
     "poles": 0,
     "wins": 0,
-    "points": 145,
+    "points": 163,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -112,7 +112,7 @@
     "car": "Red Bull RB22",
     "poles": 0,
     "wins": 0,
-    "points": 71,
+    "points": 86,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -157,7 +157,7 @@
     "car": "Racing Bulls VCARB 03",
     "poles": 0,
     "wins": 0,
-    "points": 31,
+    "points": 37,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -187,7 +187,7 @@
     "car": "Haas VF-26",
     "poles": 0,
     "wins": 0,
-    "points": 18,
+    "points": 20,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -226,13 +226,13 @@
   },
   {
     "place": 16,
-    "number": 55,
-    "team": "Williams",
-    "name": "Carlos Sainz",
-    "car": "Williams FW48",
+    "number": 31,
+    "team": "Haas F1 Team",
+    "name": "Esteban Ocon",
+    "car": "Haas VF-26",
     "poles": 0,
     "wins": 0,
-    "points": 6,
+    "points": 7,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -241,13 +241,13 @@
   },
   {
     "place": 17,
-    "number": 23,
+    "number": 55,
     "team": "Williams",
-    "name": "Alexander Albon",
+    "name": "Carlos Sainz",
     "car": "Williams FW48",
     "poles": 0,
     "wins": 0,
-    "points": 5,
+    "points": 7,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -256,13 +256,13 @@
   },
   {
     "place": 18,
-    "number": 31,
-    "team": "Haas F1 Team",
-    "name": "Esteban Ocon",
-    "car": "Haas VF-26",
+    "number": 23,
+    "team": "Williams",
+    "name": "Alexander Albon",
+    "car": "Williams FW48",
     "poles": 0,
     "wins": 0,
-    "points": 3,
+    "points": 5,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
