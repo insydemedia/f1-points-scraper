@@ -7,7 +7,7 @@
     "car": "Mercedes W17",
     "poles": 7,
     "wins": 9,
-    "points": 365,
+    "points": 380,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -16,13 +16,13 @@
   },
   {
     "place": 2,
-    "number": 63,
-    "team": "Mercedes",
-    "name": "George Russell",
-    "car": "Mercedes W17",
-    "poles": 5,
+    "number": 3,
+    "team": "Red Bull Racing",
+    "name": "Max Verstappen",
+    "car": "Red Bull RB22",
+    "poles": 2,
     "wins": 3,
-    "points": 242,
+    "points": 261,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -37,7 +37,7 @@
     "car": "Ferrari SF-26",
     "poles": 1,
     "wins": 1,
-    "points": 241,
+    "points": 259,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -46,13 +46,13 @@
   },
   {
     "place": 4,
-    "number": 3,
-    "team": "Red Bull Racing",
-    "name": "Max Verstappen",
-    "car": "Red Bull RB22",
-    "poles": 2,
-    "wins": 2,
-    "points": 236,
+    "number": 63,
+    "team": "Mercedes",
+    "name": "George Russell",
+    "car": "Mercedes W17",
+    "poles": 5,
+    "wins": 3,
+    "points": 250,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -67,7 +67,7 @@
     "car": "Ferrari SF-26",
     "poles": 0,
     "wins": 1,
-    "points": 233,
+    "points": 245,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -82,7 +82,7 @@
     "car": "McLaren MCL40",
     "poles": 3,
     "wins": 2,
-    "points": 211,
+    "points": 221,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -97,7 +97,7 @@
     "car": "McLaren MCL40",
     "poles": 0,
     "wins": 0,
-    "points": 144,
+    "points": 150,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -127,7 +127,7 @@
     "car": "Racing Bulls VCARB 03",
     "poles": 0,
     "wins": 0,
-    "points": 77,
+    "points": 79,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -142,7 +142,7 @@
     "car": "Alpine A526",
     "poles": 1,
     "wins": 0,
-    "points": 42,
+    "points": 43,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -172,7 +172,7 @@
     "car": "Alpine A526",
     "poles": 0,
     "wins": 0,
-    "points": 27,
+    "points": 31,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -315,7 +315,7 @@
     }
   },
   {
-    "place": 23,
+    "place": 24,
     "number": 11,
     "team": "Cadillac",
     "name": "Sergio Perez",
