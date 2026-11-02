@@ -97,7 +97,7 @@
     "car": "McLaren MCL40",
     "poles": 0,
     "wins": 0,
-    "points": 150,
+    "points": 144,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -112,7 +112,7 @@
     "car": "Red Bull RB22",
     "poles": 0,
     "wins": 0,
-    "points": 105,
+    "points": 107,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -127,7 +127,7 @@
     "car": "Racing Bulls VCARB 03",
     "poles": 0,
     "wins": 0,
-    "points": 79,
+    "points": 83,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -142,7 +142,7 @@
     "car": "Alpine A526",
     "poles": 1,
     "wins": 0,
-    "points": 43,
+    "points": 42,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -172,7 +172,7 @@
     "car": "Alpine A526",
     "poles": 0,
     "wins": 0,
-    "points": 31,
+    "points": 27,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -196,13 +196,13 @@
   },
   {
     "place": 14,
-    "number": 27,
+    "number": 5,
     "team": "Audi",
-    "name": "Nico Hulkenberg",
+    "name": "Gabriel Bortoleto",
     "car": "Audi R26",
     "poles": 0,
     "wins": 0,
-    "points": 13,
+    "points": 14,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -211,13 +211,13 @@
   },
   {
     "place": 15,
-    "number": 5,
+    "number": 27,
     "team": "Audi",
-    "name": "Gabriel Bortoleto",
+    "name": "Nico Hulkenberg",
     "car": "Audi R26",
     "poles": 0,
     "wins": 0,
-    "points": 10,
+    "points": 13,
     "odds": {
       "bet365": "0",
       "sportsbet": "0",
@@ -285,7 +285,7 @@
     }
   },
   {
-    "place": 21,
+    "place": 22,
     "number": 18,
     "team": "Aston Martin",
     "name": "Lance Stroll",
@@ -300,7 +300,7 @@
     }
   },
   {
-    "place": 22,
+    "place": 23,
     "number": 77,
     "team": "Cadillac",
     "name": "Valtteri Bottas",
